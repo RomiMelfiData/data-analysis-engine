@@ -30,14 +30,18 @@ Motor de ejecución de análisis de datos estructurado en etapas (E1–E8), dise
 
 ### Instalación en Claude Code
 
+Cloná el repositorio y copiá la carpeta completa a tu directorio de skills:
+
 **Personal (todos los proyectos):**
 ```
-unzip data-analysis-engine.skill -d ~/.claude/skills/
+git clone https://github.com/RomiMelfiData/data-analysis-engine.git
+cp -r data-analysis-engine ~/.claude/skills/
 ```
 
 **Project-scoped (solo un proyecto):**
 ```
-unzip data-analysis-engine.skill -d .claude/skills/
+git clone https://github.com/RomiMelfiData/data-analysis-engine.git
+cp -r data-analysis-engine .claude/skills/
 ```
 
 ### Uso
@@ -52,6 +56,27 @@ La skill se activa automáticamente y arranca desde E1.
 ```
 pandas, scipy, statsmodels, scikit-learn, imbalanced-learn
 ```
+
+### Reportar errores y sugerencias
+
+Si encontrás un error o tenés sugerencias de mejora, abrí un **Issue** en este repositorio:
+👉 https://github.com/RomiMelfiData/data-analysis-engine/issues
+
+Toda contribución es bienvenida.
+
+### Licencia
+
+Este proyecto está licenciado bajo **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**.
+
+Esto significa que podés:
+- ✅ Usar y compartir la skill libremente
+- ✅ Dar crédito a la autora (Romina Melfi)
+
+No podés:
+- ❌ Modificar o adaptar los archivos
+- ❌ Usar la skill con fines comerciales sin permiso
+
+© 2026 Romina Melfi — [Ver licencia completa](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 ---
 
@@ -83,14 +108,18 @@ A structured data analysis execution engine for Claude Code, organized in stages
 
 ### Installation in Claude Code
 
+Clone the repository and copy the folder to your skills directory:
+
 **Personal (all projects):**
 ```
-unzip data-analysis-engine.skill -d ~/.claude/skills/
+git clone https://github.com/RomiMelfiData/data-analysis-engine.git
+cp -r data-analysis-engine ~/.claude/skills/
 ```
 
 **Project-scoped (one project only):**
 ```
-unzip data-analysis-engine.skill -d .claude/skills/
+git clone https://github.com/RomiMelfiData/data-analysis-engine.git
+cp -r data-analysis-engine .claude/skills/
 ```
 
 ### Usage
@@ -105,3 +134,24 @@ The skill activates automatically and starts from E1.
 ```
 pandas, scipy, statsmodels, scikit-learn, imbalanced-learn
 ```
+
+### Bug reports and suggestions
+
+If you find a bug or have suggestions for improvement, please open an **Issue** in this repository:
+👉 https://github.com/RomiMelfiData/data-analysis-engine/issues
+
+All feedback is welcome.
+
+### License
+
+This project is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**.
+
+You are free to:
+- ✅ Use and share the skill freely
+- ✅ Give credit to the author (Romina Melfi)
+
+You may not:
+- ❌ Modify or adapt the files
+- ❌ Use the skill for commercial purposes without permission
+
+© 2026 Romina Melfi — [View full license](https://creativecommons.org/licenses/by-nc-nd/4.0/)
